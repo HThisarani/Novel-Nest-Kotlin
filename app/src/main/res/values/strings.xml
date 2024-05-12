@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">onlineLibrary</string>
+    <string name="back">Back</string>
+    <string name="back1">Back</string>
+    <string name="edit">Edit</string>
+    <string name="edit3">Edit</string>
+    <string name="back_to_main_activity">Back to Main Activity</string>
+    <string name="back5">Back</string>
+    <string name="search_by_author">Search by author</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="genre">Genre</string>
+    <string name="fee">Fee</string>
+    <string name="add_book">Add Book</string>
+    <string name="view_books">View Books</string>
+    <string name="todo">TODO</string>
+    <string name="search_by_author1">Search by Author</string>
+    <string name="author1">Author</string>
+    <string name="genre1">Genre</string>
+    <string name="fee1">Fee</string>
+    <string name="title1">Title</string>
+    <string name="delete1">Delete</string>
+    <string name="save">Save</string>
+    <string name="back2">Back</string>
+    <string name="pages">Pages</string>
+    <string name="pages2">Pages</string>
+    <string name="book_land">Book_Land</string>
+    <string name="novel_nest">Novel_Nest</string>
+    <string name="edit8">Edit</string>
+    <string name="add_book1">Add Book</string>
+    <string name="recyclebin">RecycleBin</string>
+    <string name="recycle1">Recycle</string>
+    <string name="back7">Back</string>
+    <string name="back9">Back</string>
+    <string name="recycle_bin">Recycle Bin</string>
+</resources>

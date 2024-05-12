@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/view"
+    tools:context=".LibraryEditActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/novel_nest"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#06166C"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+
+    <EditText
+        android:id="@+id/title_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title1"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/author_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/author1"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/genre_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/genre1"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/fee_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pages2"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:inputType="text" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:backgroundTint="#3B35E4"
+        />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete1"
+        android:backgroundTint="#2196F3"
+        />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back2"
+        android:backgroundTint="#6486EF"
+        />
+
+</LinearLayout>
